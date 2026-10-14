@@ -1,0 +1,30 @@
+name: 使用反馈或问题
+description: 分享超纲提出的新选择，或指出不合适的输出。
+title: "[反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎带着真实任务分享体验。请先去掉客户资料、账号和其他不宜公开的信息。
+  - type: textarea
+    id: task_and_result
+    attributes:
+      label: 你在做什么，超纲给了什么？
+      description: 写出任务、重要限制，以及你认为值得讨论的输出。简短描述也可以。
+    validations:
+      required: true
+  - type: textarea
+    id: adoption
+    attributes:
+      label: 有没有新看见一个选择？最后是否采用？
+      description: 也欢迎说明没帮助的地方或增加的无用工作；未验证的想法请标明。
+  - type: input
+    id: environment
+    attributes:
+      label: 使用环境（可选）
+      description: 例如宿主名称、模型、技能版本。无需提供账号。
+  - type: textarea
+    id: reproducible_input
+    attributes:
+      label: 可复现的输入或调整建议（可选）
+      description: 请使用脱敏片段或虚构样例。

@@ -1,0 +1,30 @@
+name: Feedback or problem (English)
+description: Share a new option OFFBRIEF helped you notice, or describe an unhelpful result.
+title: "[Feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feedback from an actual task is welcome. Remove confidential materials, account details, and other information that should not be public.
+  - type: textarea
+    id: task_and_result
+    attributes:
+      label: What were you working on, and what did OFFBRIEF suggest?
+      description: Describe the task, important constraints, and the output you want to discuss. A short summary is enough.
+    validations:
+      required: true
+  - type: textarea
+    id: adoption
+    attributes:
+      label: Did you notice a new option? Did you adopt it?
+      description: You can also describe an unhelpful idea or unnecessary work. Identify ideas that have not yet been tested.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment (optional)
+      description: For example, the host, model, and skill version. No account details are needed.
+  - type: textarea
+    id: reproducible_input
+    attributes:
+      label: Reproducible input or suggested change (optional)
+      description: Use an anonymized excerpt or a fictional example.
