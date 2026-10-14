@@ -1,18 +1,22 @@
-# OFFBRIEF · 超纲
+# OFFBRIEF Skill · 超纲
 
 [简体中文](README.md) · [English](README.en.md)
 
+**Bring a task, a plan, or a bottleneck. Discover another way forward.**
+
+An Agent Skill for creative thinking, brainstorming, and problem solving. It helps AI look at your work from another angle.
+
+Start with an idea to find a useful starting point. Bring a bottleneck, your previous attempts, and your constraints to explore another approach. When you need a plan, report, or draft, useful insights become part of the deliverable. When you already have a result, ask it to check for blind spots.
+
 **Deliver what you planned. Discover what you hadn’t considered.**
 
-An Agent Skill for creative thinking throughout your work. Bring the task you are working on, the information you have, and the constraints you face. OFFBRIEF helps you explore new approaches, alternative goals, and possibilities you have not yet considered.
+Version **1.3.0** · [Download the skill ZIP](https://github.com/ZzzShisi/offbrief/releases/download/v1.3.0/OFFBRIEF_v1.3.0.zip) · [Installation guide](INSTALL.en.md) · [See a workplace example](#workplace-example)
 
 ![OFFBRIEF cover: an unfolded paper map reveals another route](docs/images/cover.png)
 
 The cover’s message: “Let AI go beyond the brief. Discover another way forward.”
 
 [Quick start](#quick-start) · [The problem it addresses](#the-problem-it-addresses) · [Design philosophy](#design-philosophy) · [How it works](#how-it-works) · [Installation](#installation) · [Workplace example](#workplace-example) · [Usage](#usage) · [Version history](#version-history)
-
-Version **1.3.0** · [MIT License](LICENSE) · [Download the skill ZIP](dist/OFFBRIEF_v1.3.0.zip) · [Installation guide](INSTALL.en.md)
 
 ## Quick start
 
@@ -182,7 +186,7 @@ Remove confidential materials, account details, and information that should not 
 
 ## Version history
 
-### 1.3.0 · 2026-10-13
+### 1.3.0
 
 - Creative thinking throughout the task: finding a direction, making progress, delivering work, and reviewing results.
 - Natural requests are interpreted in context; a finished draft is not required, and reasoning review is distinguished from exact checks.
@@ -191,9 +195,9 @@ Remove confidential materials, account details, and information that should not 
 
 ### Earlier versions
 
-- **1.2.0 (2026-10-13):** Added review of existing results, preservation of valid work, and distinction between defects and conditional options.
-- **1.1.0 (2026-10-13):** Prioritized workplace scenarios and natural requests, with clearer introduction and first-use guidance.
-- **1.0.0 (2026-10-12):** Initial creative thinking skill.
+- **1.2.0:** Added review of existing results, preservation of valid work, and distinction between defects and conditional options.
+- **1.1.0:** Prioritized workplace scenarios and natural requests, with clearer introduction and first-use guidance.
+- **1.0.0:** Initial creative thinking skill.
 
 [Full changelog (Chinese)](CHANGELOG.md)
 
